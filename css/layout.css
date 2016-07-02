@@ -1,0 +1,106 @@
+/* CSS Document */
+.body{
+	margin:0;
+	padding:0;
+}
+
+#content-wrapper{
+	width:1000px;
+	height:auto;
+	margin:0 11px 0 11px;
+}
+
+#header{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:36px;
+	color:#999;
+	text-align:center;
+	height:60px;
+	background-image:url(../assets/img/Globasoft.ico);
+	background-repeat:no-repeat;
+}
+
+#nav-bar{
+	height:50px;
+	background-color:#000;
+}
+
+#page-heading {
+	background-color: #C8C8C8;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	color: #999;
+	padding: 0 11px 0 11px;
+	margin: 0;
+	height: 40px;
+	width: 978px;
+	font-weight: lighter;
+	text-align: left;
+	vertical-align: central;
+}
+
+#content {
+	height:auto;
+	background-color:#F0F0F0;
+	clear:both;
+	overflow:auto;
+}
+
+#content-left {
+	float:left;
+	width:280px;
+}
+
+#content-right {
+	float:right;
+	width:680px;
+}
+
+#footer{
+	height:100px;
+	overflow:auto;
+	border:2px solid black;
+	background-color:#C8C8C8;
+}
+
+h6{
+	padding:0 11px 0 11px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:14px;
+	color:#333;
+}
+
+h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	padding-left: 11px;
+}
+
+.form {
+	font-size:14px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.input-text {
+	font-stretch:semi-expanded;
+	border-radius:5px;
+	border:2px solid #CCC;
+	width:200px;
+	height:30px;
+	padding:0 6px 0 6px;
+	margin-right:15px;
+}
+
+.submit-button {
+	width:120px;
+	height:30px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.submit-button:hover{
+	color:#CCCCCC;
+	background-color:#666666;
+	font-size:16px;
+	border:1px solid #CCCCCC;
+}
